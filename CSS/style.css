@@ -1,0 +1,51 @@
+@font-face {
+    font-family: fonte;
+    src: url(../FONTS/ds_digital/DS-DIGII.TTF);
+}
+*{
+    font-family: fonte;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    background-color: rgb(117, 160, 108);
+    border-radius: 10px;
+    flex-direction: column;
+}
+form{
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form input{
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+}
+form select{
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+}
+button{
+    background-color: rgb(75, 102, 62);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+}
